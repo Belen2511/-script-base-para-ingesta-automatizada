@@ -1,0 +1,1 @@
+# -script-base-para-ingesta-automatizada
