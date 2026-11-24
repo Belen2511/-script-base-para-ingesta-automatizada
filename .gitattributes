@@ -1,0 +1,4 @@
+# Archivos binarios: sin conversion de fin de linea ni diff de texto
+*.pdf binary
+*.png binary
+*.jpg binary
