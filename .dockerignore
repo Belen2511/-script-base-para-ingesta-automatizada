@@ -1,0 +1,29 @@
+# Control de versiones
+.git
+.gitignore
+
+# Datos locales (pueden ser pesados)
+data/
+!data/.gitkeep
+
+# Credenciales: nunca dentro de la imagen
+.env
+
+# Entornos y cachés de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+mlruns/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentación y entregables
+*.pdf
+docs/

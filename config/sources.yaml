@@ -1,0 +1,38 @@
+# Fuentes de la ingesta: cada ubicación se consulta en paralelo contra
+# https://api.open-meteo.com/v1/forecast
+#
+# Variables horarias disponibles: https://open-meteo.com/en/docs
+hourly_variables:
+  - temperature_2m        # °C
+  - relative_humidity_2m  # %
+  - precipitation         # mm
+  - wind_speed_10m        # km/h
+
+past_days: 1       # horas observadas del día anterior
+forecast_days: 1   # pronóstico del día actual
+
+locations:
+  - name: buenos_aires
+    latitude: -34.61
+    longitude: -58.38
+  - name: cordoba
+    latitude: -31.42
+    longitude: -64.18
+  - name: rosario
+    latitude: -32.95
+    longitude: -60.64
+  - name: mendoza
+    latitude: -32.89
+    longitude: -68.83
+  - name: salta
+    latitude: -24.79
+    longitude: -65.41
+  - name: bariloche
+    latitude: -41.13
+    longitude: -71.31
+  - name: mar_del_plata
+    latitude: -38.00
+    longitude: -57.56
+  - name: ushuaia
+    latitude: -54.80
+    longitude: -68.30

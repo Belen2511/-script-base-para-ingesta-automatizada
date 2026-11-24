@@ -1,0 +1,27 @@
+# Credenciales
+.env
+
+# Datos (se versiona solo la carpeta)
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+mlruns/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Logs de ejecución
+logs/
+
+# Empaquetado
+*.egg-info/
+build/
+dist/
+.pytest_cache/
