@@ -1,4 +1,4 @@
-# Proyecto IA Automatización — Motor de ingesta asíncrona
+#  Motor de ingesta asíncrona
 
 Primer componente de la arquitectura de automatización: un paquete de Python
 (`src/ingestion/`) que descarga datos de varias fuentes **en paralelo** con `asyncio`,
